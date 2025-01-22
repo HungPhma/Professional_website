@@ -67,17 +67,17 @@ export const Banner = () => {
                     </Col>
                     <Col xs={12} md={6} xl={5} className='about d-flex align-items-start'>
                         <div className="about-content">
-                            <img src={headerImg} alt="Header picture" className="header-img align-self-start mx-auto d-block rounded" style={{ maxWidth: '400px' }}/>
+                            <img src={headerImg} alt="Header picture" className="header-img align-self-start mx-auto d-block rounded"/>
                             <div className="summary">
                                 <h3>Summary</h3>
                                 <p>
                                     About me
                                 </p>
                                 <p>
-                                    Career Goals: I aim to become a skilled software developer, contributing to innovative projects that make a positive impact on society. I am particularly interested in exploring opportunities in AI and cybersecurity.
+                                    Career Goals: I am to become a skilled software developer, contributing to innovative projects that make a positive impact on society. I am particularly interested in exploring opportunities in AI and cybersecurity.
                                 </p>
                                 <p>
-                                    Interests:
+                                    Interested:
                                 </p>
                                 <div className="interests">
                                     <img src={soccer} alt="Interests" className="interests-img" />

@@ -52,7 +52,7 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/hung-pham-890716267" target="_blank" rel="noopener noreferrer"><img src={navIcon1} alt="LinkedIn Icon" /></a>
+                <a href="https://www.linkedin.com/in/hung-pham11" target="_blank" rel="noopener noreferrer"><img src={navIcon1} alt="LinkedIn Icon" /></a>
                 <a href="https://www.facebook.com/ngochung2610/" target="_blank" rel="noopener noreferrer"><img src={navIcon2} alt="Facebook Icon" /></a>
                 <a href="https://www.instagram.com/hungg.phamm11/" target="_blank" rel="noopener noreferrer"><img src={navIcon3} alt="Instagram Icon" /></a>
               </div>

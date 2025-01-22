@@ -4,8 +4,8 @@ import { ProjectCard } from './ProjectCard';
 import project1 from '../assets/img/Inventory.png';
 import project2 from '../assets/img/project2.png'; // Make sure these paths are correct
 import project3 from '../assets/img/project3.png';
-import project4 from '../assets/img/game.png';
-// import project5 from '../assets/img/project-img2.png';
+import project4 from '../assets/img/game1.png';
+import project5 from '../assets/img/botbot.jpg';
 // import project6 from '../assets/img/project-img3.png';
 import noproject1 from '../assets/img/noproject1.png';
 
@@ -31,11 +31,11 @@ export const Projects = () => {
             description: "Our game is a liminal horror/puzzle game that takes place in a single floor hotel. The player starts with being able to access his room and within each of the rooms of the hotel is a puzzle. After a puzzle is completed, the player receives a piece of the key to exit the hotel. Once all the puzzles/rooms are explored and completed, the player can finally exit the hotel and win the game.",
             imgUrl: project4,
         },
-        // {
-        //     title: "Project 5",
-        //     description: "Description here",
-        //     imgUrl: project5,
-        // },
+        {
+            title: "Botbotphotography",
+            description: "A modern photography portfolio showcasing stunning visuals, responsive design, and seamless user experience. Explore creative galleries and connect through an intuitive contact form.",
+            imgUrl: project5,
+        },
         // {
         //     title: "Project 6",
         //     description: "Description here",

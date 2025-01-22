@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import contactImg from "../assets/img/contact-img.svg";
+import contactImg from "../assets/img/contact.jpg";
 import emailjs from 'emailjs-com';
 
 export const Contact = () => {
@@ -28,7 +28,7 @@ export const Contact = () => {
         setButtonText('Sending...');
 
         try {
-            await emailjs.send('service_ruvq791', 'template_ncyimya', formDetails, 'PIeo0jq6rNOoepdga');
+            await emailjs.send('service_ruvq791', 'template_ncyimya', formDetails, 'fkHpl6vaHwGI1Fjog');
             setButtonText("Send");
             setFormDetails(formInitialDetails);
             setStatus({ success: true, message: 'Message sent successfully' });

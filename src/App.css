@@ -287,8 +287,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner button:hover svg {
   margin-left: 25px;
 }
-.banner img {
+/* .banner img {
   animation: updown 3s linear infinite;
+} */
+.rounded{
+  margin-top: 5%;
 }
 .interests-img{
   width: 10%;
@@ -563,6 +566,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact img {
   width: 92%;
+  border-radius: 10px;
 }
 .contact h2 {
 	font-size: 45px;
