@@ -6,6 +6,8 @@ import meter1 from "../assets/img/icons8-html-5.svg"
 import meter2 from "../assets/img/icons8-c.svg"
 import meter3 from "../assets/img/icons8-python.svg"
 import meter4 from "../assets/img/icons8-react-js-512.png"
+import meter5 from "../assets/img/icons8-node-js.svg"
+import meter6 from "../assets/img/mongodb-svgrepo-com.svg"
 import colorSharp from "../assets/img/white.jpg"
 export const Skills = () => {
     const responsive = {
@@ -55,6 +57,16 @@ export const Skills = () => {
 
                                 <div className='item'>
                                     <img src={meter4} alt = "Image" />
+                                    {/* <h5> Web Development</h5> */}
+                                </div>
+
+                                <div className='item'>
+                                    <img src={meter5} alt = "Image" />
+                                    {/* <h5> Web Development</h5> */}
+                                </div>
+
+                                <div className='item'>
+                                    <img src={meter6} alt = "Image" />
                                     {/* <h5> Web Development</h5> */}
                                 </div>
                             </Carousel>

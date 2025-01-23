@@ -101,7 +101,7 @@ nav.navbar a.navbar-brand {
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
-  color: black !important;
+  color: rgb(81, 74, 74) !important;
   letter-spacing: 0.8px;
   padding: 0 25px;
   font-size: 18px;
@@ -110,6 +110,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
     opacity: 1;
+    color: rgb(0, 0, 0) !important;
 }
 span.navbar-text {
     display: flex;
@@ -171,7 +172,7 @@ span.navbar-text {
   width: 0%;
   height: 100%;
   position: absolute;
-  background: linear-gradient(90.21deg, rgba(132, 229, 137, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);  left: 0;
+  background: linear-gradient(90.21deg, rgba(251, 251, 251, 0.5) -5.91%, rgba(122, 119, 112, 0.5) 111.58%);  left: 0;
   top: 0;
   z-index: -1;
   transition: 0.3s ease-in-out;
@@ -246,7 +247,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   padding: 8px 10px;
   /* background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%); */
-  background: linear-gradient(90.21deg, rgba(132, 229, 137, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  background: linear-gradient(90.21deg, rgba(251, 251, 251, 0.5) -5.91%, rgba(122, 119, 112, 0.5) 111.58%);  left: 0;
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   color: #121212;
@@ -474,7 +475,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 0;
     height: 100%;
     /* background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%); */
-    background: linear-gradient(90.21deg, rgba(132, 229, 137, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+    background: linear-gradient(90.21deg, rgba(0, 0, 0, 0.5) -5.91%, rgba(35, 32, 32, 0.5) 111.58%);
     top: 0;
     left: 0;
     z-index: -1;
@@ -511,7 +512,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-imgbx::before {
   content: "";
   /* background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%); */
-  background: linear-gradient(90.21deg, rgba(132, 229, 137, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  background: linear-gradient(90.21deg, rgba(0, 0, 0, 0.5) -5.91%, rgba(0, 0, 0, 0.5) 111.58%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -567,6 +568,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .contact img {
   width: 92%;
   border-radius: 10px;
+  scale: 0.5;
 }
 .contact h2 {
 	font-size: 45px;
@@ -579,7 +581,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid black;
   border-radius: 20px;
-  color: #fff;
+  color: #000000;
   margin: 0 0 8px 0;
   padding: 18px 26px;
   font-weight: 500;
@@ -603,7 +605,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .contact form button {
   font-weight: 700;
   color: #000;
-  background: rgba(255, 255, 255, 1);
+  /* background: rgba(255, 255, 255, 1); */
   padding: 14px 48px;
   font-size: 18px;
   margin-top: 25px;
@@ -611,6 +613,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 10px;
   position: relative;
   transition: 0.3s ease-in-out;
+  overflow: hidden;
 }
 .contact form button span {
   z-index: 1;
@@ -621,7 +624,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form button::before {
   content: "";
-  background: linear-gradient(90.21deg, rgba(132, 229, 137, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  background: linear-gradient(90.21deg, rgba(27, 24, 24, 0.5) -5.91%, rgba(112, 122, 115, 0.5) 111.58%);  left: 0;
   width: 0;
   height: 100%;
   position: absolute;

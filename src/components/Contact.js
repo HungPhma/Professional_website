@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import contactImg from "../assets/img/contact.jpg";
+import contactImg from "../assets/img/teamwork-svgrepo-com.svg";
 import emailjs from 'emailjs-com';
 
 export const Contact = () => {
@@ -21,11 +21,33 @@ export const Contact = () => {
             ...formDetails,
             [category]: value
         })
-    }
+    };
+
+    const handlePhoneInput = (value) => {
+        const numericValue = value.replace(/[^0-9]/g, '');
+        setFormDetails({
+            ...formDetails,
+            phone: numericValue
+        });
+    };
+
+    const handleEmail = (value) => {
+        const emailInput = value.replace(/[^a-zA-Z0-9@.]/g, '');
+        setFormDetails({
+            ...formDetails,
+            email: emailInput
+        });
+    };
     
     const handleSubmit = async (e) => {
         e.preventDefault();
         setButtonText('Sending...');
+
+        if (!/\S+@\S+\.\S+/.test(formDetails.email)) {
+            setStatus({ success: false, message: 'Invalid email format!' });
+            setButtonText('Send');
+            return;
+        }
 
         try {
             await emailjs.send('service_ruvq791', 'template_ncyimya', formDetails, 'fkHpl6vaHwGI1Fjog');
@@ -70,7 +92,7 @@ export const Contact = () => {
                                         type="text"
                                         value={formDetails.email}
                                         placeholder="Email Address"
-                                        onChange={(e) => onFormUpdate('email', e.target.value)}
+                                        onChange={(e) => handleEmail(e.target.value)}
                                     />
                                 </Col>
                                 <Col sm={6} className="px-1">
@@ -78,7 +100,7 @@ export const Contact = () => {
                                         type="text"
                                         value={formDetails.phone}
                                         placeholder="Phone Number"
-                                        onChange={(e) => onFormUpdate('phone', e.target.value)}
+                                        onChange={(e) => handlePhoneInput(e.target.value)}
                                     />
                                 </Col>
                                 <Col>
