@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/Professional_website/static/css/main.3cd6d132.css",
-    "main.js": "/Professional_website/static/js/main.919c27a9.js",
+    "main.css": "/Professional_website/static/css/main.279e11c7.css",
+    "main.js": "/Professional_website/static/js/main.e4914aa3.js",
     "static/js/453.acca0757.chunk.js": "/Professional_website/static/js/453.acca0757.chunk.js",
     "static/media/white.jpg": "/Professional_website/static/media/white.f7d77f663453b0b10338.jpg",
-    "static/media/project2.png": "/Professional_website/static/media/project2.ea386eb3788dd860206f.png",
-    "static/media/resume.pdf": "/Professional_website/static/media/resume.65eb697e9caeb3696bbe.pdf",
     "static/media/project3.png": "/Professional_website/static/media/project3.b68bf66ec87442935f16.png",
     "static/media/myselfpic.jpg": "/Professional_website/static/media/myselfpic.92ae10e2a21da2e9336f.jpg",
     "static/media/Inventory.png": "/Professional_website/static/media/Inventory.0efe3a614006f38dc6d8.png",
+    "static/media/resume.pdf": "/Professional_website/static/media/resume.25c1e9f2fe1f74ee2626.pdf",
     "static/media/game1.png": "/Professional_website/static/media/game1.4133202eeeff30bf588d.png",
     "static/media/CentraNo2-Bold.ttf": "/Professional_website/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/Professional_website/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
@@ -36,12 +35,12 @@
     "static/media/icons8-html-5.svg": "/Professional_website/static/media/icons8-html-5.10080bf9eca0dcafeb4b353b2ce579ea.svg",
     "static/media/nav-icon2.svg": "/Professional_website/static/media/nav-icon2.2c39556dff9c18a14eaa954398040246.svg",
     "static/media/logo-codo-1.svg": "/Professional_website/static/media/logo-codo-1.b12f705fc33bf77948d532b13c0bc072.svg",
-    "main.3cd6d132.css.map": "/Professional_website/static/css/main.3cd6d132.css.map",
-    "main.919c27a9.js.map": "/Professional_website/static/js/main.919c27a9.js.map",
+    "main.279e11c7.css.map": "/Professional_website/static/css/main.279e11c7.css.map",
+    "main.e4914aa3.js.map": "/Professional_website/static/js/main.e4914aa3.js.map",
     "453.acca0757.chunk.js.map": "/Professional_website/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3cd6d132.css",
-    "static/js/main.919c27a9.js"
+    "static/css/main.279e11c7.css",
+    "static/js/main.e4914aa3.js"
   ]
 }
