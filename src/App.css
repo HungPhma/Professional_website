@@ -196,7 +196,7 @@ nav.navbar .navbar-toggler-icon {
   height: 17px;
   background-image: none;
   position: relative;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid black;
   transition: all 300ms linear;
   top: -2px;
 }
@@ -208,7 +208,7 @@ nav.navbar .navbar-toggler-icon:before {
 	width: 24px;
 	position: absolute;
 	height: 2px;
-	background-color: #fff;
+	background-color: black;
 	top: 0;
 	left: 0;
 	content: '';
@@ -556,8 +556,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   right: 0;
   z-index: -4;
 }
+.modal-body {
+  color: black;
+}
+.details-button {
+  background-color: white !important;
+  color: black !important;
+  border: 1px;
+}
+.custom-button:hover {
+  background: linear-gradient(90.21deg, rgba(27, 24, 24, 0.5) -5.91%, rgba(112, 122, 115, 0.5) 111.58%) !important;  left: 0;
+}
 
-/************ Projects Css ************/
+/************ Contact Css ************/
 .contact {
   background-image: url("./assets/img/white.jpg");
   padding: 40px 0 50px 0;
@@ -637,6 +648,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 100%;
 }
 
+
+/************ Education Css ************/
 .education {
   padding: 80px 0 50px 0;
   position: relative;
@@ -694,4 +707,52 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .right-side {
   flex: 1; /* Allow the text to fill the remaining space */
   margin-top: 10px;
+}
+@media (max-width: 1000px) {
+  .education {
+    padding: 60px 0 40px 0; /* Adjust padding for smaller screens */
+  }
+
+  .main-bx {
+    padding: 40px 30px; /* Adjust padding for smaller screens */
+  }
+
+  .education h2 {
+    font-size: 35px; /* Adjust heading size */
+  }
+
+  .education h3,
+  .education p {
+    font-size: 18px; /* Adjust paragraph and subheading size */
+  }
+
+  .education img {
+    width: 80%; /* Make the image larger on smaller screens */
+  }
+
+  .both-side {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    width: 80%; /* Increase width to take up more space */
+    margin: 20px auto; /* Center the container with margin */
+  }
+
+  .left-side,
+  .right-side {
+    margin-top: 20px; /* Add space between elements */
+  }
+
+  .left-side {
+    width: 100%; /* Make the image take up full width on smaller screens */
+    margin-bottom: 20px; /* Add space below the image */
+  }
+
+  .right-side {
+    width: 100%; /* Allow the text to take full width */
+  }
+}
+
+@media (max-width: 900px){
+  .education img {
+    width: 50%; /* Make the image larger on smaller screens */
+  }
 }

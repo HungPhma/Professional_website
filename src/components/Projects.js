@@ -2,7 +2,7 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from './ProjectCard';
 // import colorSharp2 from '../assets/img/color-sharp2.png';
 import project1 from '../assets/img/Inventory.png';
-import project2 from '../assets/img/project2.png'; // Make sure these paths are correct
+// import project2 from '../assets/img/project2.png';
 import project3 from '../assets/img/project3.png';
 import project4 from '../assets/img/game1.png';
 import project5 from '../assets/img/botbot.jpg';
@@ -11,43 +11,78 @@ import noproject1 from '../assets/img/noproject1.png';
 
 export const Projects = () => {
     const projects = [
-        {
-            title: "Inventory-Retail",
-            description: "This project involves developing a robust database system for managing the stock of a retail store. The primary goal is to create a solution that addresses the complexities of inventory management, especially in large retail environments with a diverse range of products and frequent sales transactions.",
-            imgUrl: project1,
-        },
-        {
-            title: "SportSync",
-            description: "SportSync is an online platform that helps people who love sports get together by making it easier to organize, share, and create local sporting events. Our platform allows users to plan and take part in sports-related events in their communities, such as watch parties, pickup basketball games, and neighborhood soccer matches.",
-            imgUrl: project2,
-        },
-        {
-            title: "Traffic Conviction",
-            description: "This research analyzes traffic conviction records from the NYS DMV to identify trends in violations across various laws. It examines types of offenses, offender demographics, and geographic distribution, using data to predict likely violations based on factors like age, sex, year, and court name. The goal is to find patterns that can help allocate resources to prevent traffic violations in specific demographic groups.",
-            imgUrl: project3,
-        },
-        {
-            title: "Hung's Hotel",
-            description: "Our game is a liminal horror/puzzle game that takes place in a single floor hotel. The player starts with being able to access his room and within each of the rooms of the hotel is a puzzle. After a puzzle is completed, the player receives a piece of the key to exit the hotel. Once all the puzzles/rooms are explored and completed, the player can finally exit the hotel and win the game.",
-            imgUrl: project4,
-        },
-        {
-            title: "Botbotphotography",
-            description: "A modern photography portfolio showcasing stunning visuals, responsive design, and seamless user experience. Explore creative galleries and connect through an intuitive contact form.",
-            imgUrl: project5,
-        },
-        // {
-        //     title: "Project 6",
-        //     description: "Description here",
-        //     imgUrl: project6,
-        // },
-    ];
+    {
+        title: "Botbotphotography.com",
+        description: "A modern photography portfolio showcasing stunning visuals, responsive design, and seamless user experience. Explore creative galleries and connect through an intuitive contact form.",
+        imgUrl: project5,
+        role: "Developer",
+        technologies: ["JavaScript", "HTML", "CSS (SCSS)", "Node.js", "Express.js", "Github"],
+        frameworks: ["React"],
+        dates: "July 2024 – August 2024",
+        tasks: [
+            "Developed a React-based frontend with SCSS for custom styling and mobile responsiveness.",
+            "Built a Node.js + Express.js backend to handle contact form submissions securely.",
+            "Hosted the frontend on GitHub Pages and integrated it with the backend.",
+            "Optimized performance with lazy loading and media queries for an improved user experience."
+        ]
+    },
+    {
+        title: "Hung’s Hotel game",
+        description: "An immersive horror/puzzle game where players solve puzzles to escape a liminal hotel environment.",
+        imgUrl: project4,
+        role: "Game Developer",
+        technologies: ["C#", "Unity", "Git"],
+        frameworks: [],
+        dates: "Feb 2024 – Apr 2024",
+        tasks: [
+            "Engaged players in a captivating storyline set in a liminal hotel environment, blurring the lines between reality and the supernatural.",
+            "Designed intricate puzzles for each room, offering players a mix of logic, exploration, and problem-solving challenges.",
+            "Optimized game performance using Unity’s profiling tools to ensure smooth gameplay across various hardware configurations.",
+            "Managed development using Git for version control and seamless collaboration."
+        ]
+    },
+    {
+        title: "Retail-Store Inventory",
+        description: "A local database system to manage product information, stock levels, sales transactions, and user credentials for a retail store.",
+        imgUrl: project1,
+        role: "Software Developer",
+        technologies: ["C++", "Github"],
+        frameworks: [],
+        dates: "Feb 2024 – Apr 2024",
+        tasks: [
+            "Designed and implemented an efficient local database system to manage product information, stock levels, sales transactions, and user credentials.",
+            "Conducted thorough testing and troubleshooting to ensure the system's reliability and accuracy.",
+            "Maintained memory management quality by using Valgrind to prevent memory leaks.",
+            "Implemented a basic login system to secure access to the inventory system."
+        ]
+    },
+    {
+        title: "Traffic Conviction",
+        description: "This research analyzes traffic conviction records from the NYS DMV to identify trends in violations across various laws. It examines types of offenses, offender demographics, and geographic distribution, using data to predict likely violations based on factors like age, sex, year, and court name. The goal is to find patterns that can help allocate resources to prevent traffic violations in specific demographic groups.",
+        imgUrl: project3,
+        role: "Data Analyst",
+        technologies: ["Python", "Pandas", "Matplotlib"],
+        frameworks: [],
+        dates: "March 2024 – June 2024",
+        tasks: [
+            "Analyzed traffic conviction records from the NYS DMV to identify trends in violations.",
+            "Explored types of offenses, offender demographics, and geographic distribution of violations.",
+            "Used statistical models to predict likely violations based on demographic and temporal factors.",
+            "Created visualizations to communicate findings using Matplotlib and Pandas."
+        ]
+    },
+    // Add more projects as needed
+];    
 
     const noprojects = [
         {
             title: "",
             description: "",
             imgUrl: noproject1,
+            technologies: [],
+            frameElement: [],
+            dates: "",
+            task: []
         },
     ];
 
@@ -97,7 +132,6 @@ export const Projects = () => {
                     </Col>
                 </Row>
             </Container>
-            {/* <img className='background-image-right' src={colorSharp2} alt="Background decoration" /> */}
         </section>
     )
 }

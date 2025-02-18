@@ -31,7 +31,7 @@ export const Education = () => {
                                 <div className='right-side'>
                                     <h3>San Diego Mesa College</h3>
                                     <p>Lower Division Courses</p>
-                                    <p>2017-2022</p>
+                                    <p>2019-2022</p>
                                 </div>
                             </div>
                         </div>
